@@ -1,4 +1,15 @@
 {
+  "name": "posts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
     "axios": "^0.27.2",
     "cors": "^2.8.5",

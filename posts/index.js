@@ -10,6 +10,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.listen(4000, () => {
+    console.log('v2');
     console.log('Posts server listening on port 4000...');
 });
 

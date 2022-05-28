@@ -10,7 +10,7 @@ app.use(cors());
 app.listen(4002, async () => {
     console.log('Query server listening on port 4002....');
 
-    const response = await axios.get('http://localhost:4005/events').catch(error => {
+    const response = await axios.get('http://event-bus-srv:4005/events').catch(error => {
         console.log(error);
     });
 

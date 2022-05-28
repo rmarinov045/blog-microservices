@@ -26,9 +26,9 @@ Built with React and Express. Uses an event driven architecture for creating mul
 
 | Name | Link |
 | --- | --- |
-| Comments | [readme]() | 
-| Event Bus | [readme]() |
-| Moderation | [readme]() |
-| Posts | [readme]() |
-| Query | [readme]() |
+| Comments | [readme](https://github.com/rmarinov045/blog-microservices/tree/main/comments) | 
+| Event Bus | [readme](https://github.com/rmarinov045/blog-microservices/tree/main/event-bus) |
+| Moderation | [readme](https://github.com/rmarinov045/blog-microservices/tree/main/moderation) |
+| Posts | [readme](https://github.com/rmarinov045/blog-microservices/tree/main/posts) |
+| Query | [readme](https://github.com/rmarinov045/blog-microservices/tree/main/query) |
 

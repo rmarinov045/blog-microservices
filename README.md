@@ -23,7 +23,7 @@ Built with React and Express. Uses an event driven architecture for creating mul
 2. The app is deployed at 'posts.com' instead of localhost. To be able to run it, you have to edit the `hosts` file of your OS and add the following line (reroute requests to localhost):
 --> `posts.com 127.0.0.1`
 4. Run `skaffold dev`
-   ** `NOTE:` Some errors may appear and the process may exit after running the command. If encountered, run the command again
+   - `NOTE:` Some errors may appear and the process may exit after running the command. If encountered, run the command again
 6. Open a web browser and go to 'posts.com'
 
 ## Services:

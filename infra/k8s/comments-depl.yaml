@@ -11,10 +11,10 @@ spec:
     metadata:
       labels:
         app: comments
-  spec:
-    containers:
-      - name: comments
-        image: rmarinov045/comments
+    spec:
+      containers:
+        - name: comments
+          image: rmarinov045/comments
 ---
 # Cluster IP config
 apiVersion: v1

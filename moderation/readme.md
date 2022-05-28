@@ -8,8 +8,9 @@
 * POST /events - used to receive events
 
 Event object structure:
-
+```
 {
     type: string,
     data: Posts | Comment
 }
+```

@@ -9,14 +9,14 @@
 * POST /posts - receives events of type event and handles them
 
 Event object structure:
-
+```
 {
     type: string,
     data: Posts | Comment
 }
-
+```
 Posts object structure:
-
+```
 {
     [postID :string]: {
         id: string,
@@ -24,9 +24,9 @@ Posts object structure:
         comments: []
     }
 }
-
+```
 Comment object structure:
-
+```
 {
     [commentID :string]: {
         id: string,
@@ -34,3 +34,4 @@ Comment object structure:
         status: rejected | approved | pending
     }
 }
+```

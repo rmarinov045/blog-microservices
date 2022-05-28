@@ -8,14 +8,14 @@ Built with React and Express. Uses an event driven architecture for creating mul
 
 ## Features:
 * Comment service - create and retrieve comments
-** Emits event when comment is created
+    * Emits event when comment is created
 * Event bus - handle generated events and propagate them to all services
-** Has own simple events storage
+    * Has own simple events storage
 * Moderation - receives event, when comment is created and emits event when it is moderated.
 * Posts - retrieve and create posts
-** Emits event when a post is created
+    * Emits event when a post is created
 * Query - retrieve posts and comments
-** Fetches events on startup and handles them
+    * Fetches events on startup and handles them
 
 ## How to run:
 
@@ -26,9 +26,9 @@ Built with React and Express. Uses an event driven architecture for creating mul
 
 | Name | Link |
 | --- | --- |
-| Comments | [readme] | 
-| Event Bus | [readme] |
-| Moderation | [readme] |
-| Posts | [readme] |
-| Query | [readme] |
+| Comments | [readme]() | 
+| Event Bus | [readme]() |
+| Moderation | [readme]() |
+| Posts | [readme]() |
+| Query | [readme]() |
 

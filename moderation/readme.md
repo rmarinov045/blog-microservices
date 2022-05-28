@@ -5,7 +5,7 @@
 ## Docker image tag - rmarinov045/moderation
 
 ## Endpoints
-* POST /events - used to receive events
+* `POST` `/events` - used to receive events
 
 Event object structure:
 ```

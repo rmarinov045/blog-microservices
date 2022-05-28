@@ -5,8 +5,8 @@
 ## Docker image tag - rmarinov045/query
 
 ## Endpoints
-* GET /posts - receive all currently saved posts
-* POST /posts - receives events of type event and handles them
+* `GET` `/posts` - receive all currently saved posts
+* `POST` `/posts` - receives events of type event and handles them
 
 Event object structure:
 ```

@@ -5,9 +5,9 @@
 ## Docker image tag - rmarinov045/posts
 
 ## Endpoints
-* GET /posts - receive all currently saved posts - backup endpoint
-* POST /posts/create - creates a post with the passed title and auto-generated ID
-* POST /events - used to receive events
+* `GET` `/posts` - receive all currently saved posts - backup endpoint
+* `POST` `/posts/create` - creates a post with the passed title and auto-generated ID
+* `POST` `/events` - used to receive events
 
 Event object structure:
 ```

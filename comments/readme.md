@@ -5,9 +5,9 @@
 ## Docker image tag - rmarinov045/comments
 
 ## Endpoints
-* GET /posts/:id/comments - receive post by postID
-* POST /posts/:id/comments - create comment for post by postID
-* POST /events - receive and handle events
+* `GET` `/posts/:id/comments` - receive post by postID
+* POST `/posts/:id/comments` - create comment for post by postID
+* POST `/events` - receive and handle events
 
 commentByPostId structure:
 ```

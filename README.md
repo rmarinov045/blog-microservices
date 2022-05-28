@@ -19,7 +19,7 @@ Built with React and Express. Uses an event driven architecture for creating mul
 
 ## How to run:
 
-1. Make sure you have scaffold installed
+1. Make sure you have scaffold, docker and kubernetes installed
 2. Run `scaffold dev`
 
 ## Services:

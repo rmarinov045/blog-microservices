@@ -17,7 +17,7 @@ function PostList() {
     const [posts, setPosts] = useState<PostsList | {}>({});
 
     const fetchPosts = async (): Promise<void> => {
-        const response = await axios.get('http://localhost:4002/posts');
+        const response = await axios.get('http://posts.com/posts');
         setPosts(response.data)
     };
 

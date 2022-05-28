@@ -7,7 +7,7 @@ function CommentCreate({ postId }: { [postId: string]: string }) {
 
     const handleSubmit = async (e: SyntheticEvent): Promise<void> => {
         e.preventDefault();
-        await axios.post(`http://localhost:4001/posts/${postId}/comments`, {
+        await axios.post(`http://posts.com/posts/${postId}/comments`, {
             content,
         });
 

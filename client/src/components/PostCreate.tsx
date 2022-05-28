@@ -8,7 +8,7 @@ function PostCreate() {
   const handleSubmit = async (e :SyntheticEvent) => {
     e.preventDefault();
 
-    await axios.post('http://localhost:4000/posts', {
+    await axios.post('http://posts.com/posts', {
       title
     });
 
